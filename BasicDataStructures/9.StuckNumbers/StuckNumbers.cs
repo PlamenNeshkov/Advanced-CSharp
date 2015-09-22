@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace _9.StuckNumbers
 {
-    class Program
+    class StuckNumbers
     {
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            string[] input = Console.ReadLine().Split(' ');
+            int[] numbers = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                numbers[i] = int.Parse(input[i]);
+            }
 
             bool any = false;
             int numslen = numbers.Length;
@@ -30,13 +35,9 @@ namespace _9.StuckNumbers
 
                             if (a != b && a != c && a != d && b != c && b != d && c != d)
                             {
-                                StringBuilder ab = new StringBuilder();
-                                ab.Append(a);
-                                ab.Append(b);
-                                StringBuilder cd = new StringBuilder();
-                                cd.Append(c);
-                                cd.Append(d);
-                                if (ab.ToString() == cd.ToString())
+                                string ab = "" + a + b;
+                                string cd = "" + c + d;
+                                if (ab == cd)
                                 {
                                     Console.WriteLine("{0}|{1}=={2}|{3}", a, b, c, d);
                                     any = true;

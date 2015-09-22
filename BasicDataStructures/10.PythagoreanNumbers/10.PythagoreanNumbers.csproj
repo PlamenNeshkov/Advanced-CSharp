@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFBE037F-F3FA-4E9D-8B0C-20F95CB5B140}</ProjectGuid>
+    <ProjectGuid>{377BAD5A-0D3D-4760-8094-6BA021B0A84F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_9.StuckNumbers</RootNamespace>
-    <AssemblyName>9.StuckNumbers</AssemblyName>
+    <RootNamespace>_10.PythagoreanNumbers</RootNamespace>
+    <AssemblyName>10.PythagoreanNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StuckNumbers.cs" />
+    <Compile Include="PythagoreanNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

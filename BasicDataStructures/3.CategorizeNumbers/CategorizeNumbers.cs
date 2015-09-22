@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _3.CategorizeNumbers
 {
-    class Program
+    class CategorizeNumbers
     {
         static void Main(string[] args)
         {
