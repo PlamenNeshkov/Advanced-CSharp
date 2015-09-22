@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SortArrayOfNumbers", "1.SortArrayOfNumbers\1.SortArrayOfNumbers.csproj", "{EA9B4D15-7A49-4226-B45A-C3194AEBE12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SortArrayOfNumbersUsingSelectionSort", "2.SortArrayOfNumbersUsingSelectionSort\2.SortArrayOfNumbersUsingSelectionSort.csproj", "{E1DB4587-E5A6-4FB1-A716-ECEE66A2CA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.CategorizeNumbers", "3.CategorizeNumbers\3.CategorizeNumbers.csproj", "{93DD56A0-AB61-4365-B960-ADE28659E99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.SequencesOfEqualStrings", "4.SequencesOfEqualStrings\4.SequencesOfEqualStrings.csproj", "{537DE6BE-8AF4-4AC0-B49B-6142B958EAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.LongestIncreasingSequence", "5.LongestIncreasingSequence\5.LongestIncreasingSequence.csproj", "{5564CDDB-CC05-4509-9623-C643FD2D1DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.SubsetSums", "6.SubsetSums\6.SubsetSums.csproj", "{D12C76CD-2834-4F04-88E9-B546C3DD842F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.SortedSubsetSums", "7.SortedSubsetSums\7.SortedSubsetSums.csproj", "{B0AFEFAD-8C79-4054-90E1-1585F9AB3F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9B4D15-7A49-4226-B45A-C3194AEBE12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9B4D15-7A49-4226-B45A-C3194AEBE12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9B4D15-7A49-4226-B45A-C3194AEBE12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9B4D15-7A49-4226-B45A-C3194AEBE12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DB4587-E5A6-4FB1-A716-ECEE66A2CA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DB4587-E5A6-4FB1-A716-ECEE66A2CA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DB4587-E5A6-4FB1-A716-ECEE66A2CA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DB4587-E5A6-4FB1-A716-ECEE66A2CA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DD56A0-AB61-4365-B960-ADE28659E99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DD56A0-AB61-4365-B960-ADE28659E99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DD56A0-AB61-4365-B960-ADE28659E99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DD56A0-AB61-4365-B960-ADE28659E99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537DE6BE-8AF4-4AC0-B49B-6142B958EAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537DE6BE-8AF4-4AC0-B49B-6142B958EAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537DE6BE-8AF4-4AC0-B49B-6142B958EAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537DE6BE-8AF4-4AC0-B49B-6142B958EAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5564CDDB-CC05-4509-9623-C643FD2D1DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5564CDDB-CC05-4509-9623-C643FD2D1DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5564CDDB-CC05-4509-9623-C643FD2D1DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5564CDDB-CC05-4509-9623-C643FD2D1DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12C76CD-2834-4F04-88E9-B546C3DD842F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12C76CD-2834-4F04-88E9-B546C3DD842F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12C76CD-2834-4F04-88E9-B546C3DD842F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12C76CD-2834-4F04-88E9-B546C3DD842F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AFEFAD-8C79-4054-90E1-1585F9AB3F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AFEFAD-8C79-4054-90E1-1585F9AB3F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AFEFAD-8C79-4054-90E1-1585F9AB3F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AFEFAD-8C79-4054-90E1-1585F9AB3F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
